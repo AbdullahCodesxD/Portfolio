@@ -375,6 +375,9 @@ footer {
       grid-template-columns: 1fr;
       gap: 4rem;
       justify-content: center; }
+  header:after{
+    top:-50%;  
+  }
       header .container .mobile {
         left: 0;
         margin-top: 4rem; }
@@ -385,9 +388,6 @@ footer {
         header .container .content p {
           width: 90%; }
 
-  #portfolio h2, #portfolio p, #portfolio .line {
-    position: relative;
-    left: -3%; }
   #portfolio .container {
     padding: 0; }
     #portfolio .container .projects {
